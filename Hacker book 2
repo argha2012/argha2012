@@ -1,0 +1,75 @@
+========================
+VOLUME 2 – LINUX BASICS & COMMAND MASTERY
+========================
+
+CHAPTER 4 – WHY LINUX IS A HACKER’S BEST FRIEND
+-----------------------------------------------
+If Windows is like a fancy restaurant menu, Linux is like the kitchen. You get behind the scenes, control everything, and cook your own recipes (commands).
+
+WHY HACKERS LOVE LINUX:
+- Open Source: You can see and modify the code.
+- Powerful Terminal: Commands can automate almost anything.
+- Lightweight: Can run on old or small systems.
+- Networking Tools: Preloaded with tools like nmap, netcat, tcpdump.
+
+COMMON LINUX DISTROS FOR HACKING:
+- Kali Linux: Comes with 600+ pre-installed hacking tools.
+- Parrot OS: Lightweight and privacy-focused.
+- BlackArch: For hardcore pentesters with 2000+ tools.
+
+CHAPTER 5 – LINUX BASICS YOU MUST MASTER
+----------------------------------------
+FILE SYSTEM STRUCTURE:
+- `/` – Root directory (the top of the tree).
+- `/home` – Personal files for each user.
+- `/etc` – Configuration files.
+- `/var` – Logs and variable data.
+- `/bin` – Basic commands and programs.
+
+BASIC TERMINAL COMMANDS:
+- `pwd` – Print current directory.
+- `ls` – List files in the directory.
+- `cd foldername` – Change directory.
+- `mkdir foldername` – Create a folder.
+- `rm filename` – Remove a file.
+- `cp file1 file2` – Copy file1 to file2.
+- `mv old new` – Move or rename files.
+- `cat file` – Show file contents.
+- `nano file` – Edit file in terminal.
+
+CHAPTER 6 – INTERMEDIATE LINUX COMMANDS
+---------------------------------------
+- `chmod 755 file` – Change file permissions.
+- `chown user:group file` – Change file ownership.
+- `find / -name file.txt` – Search for a file.
+- `grep 'word' file` – Search for a word inside a file.
+- `ps aux` – Show running processes.
+- `kill PID` – Stop a process using its process ID.
+- `tar -cvf archive.tar files` – Create a tar archive.
+- `tar -xvf archive.tar` – Extract a tar archive.
+- `scp file user@ip:/path` – Securely copy file to another computer.
+
+CHAPTER 7 – ADVANCED COMMANDS FOR HACKERS
+-----------------------------------------
+- `nmap IP` – Scan a target’s open ports and services.
+- `netstat -tulpn` – Show all active network connections.
+- `tcpdump` – Capture and analyze network packets.
+- `hydra -l user -P passlist.txt target ssh` – Brute force SSH login.
+- `airmon-ng` – Enable monitor mode for Wi-Fi hacking.
+- `aircrack-ng capture.cap -w wordlist.txt` – Crack Wi-Fi passwords.
+- `msfconsole` – Start the Metasploit framework for exploitation.
+- `john hash.txt` – Crack password hashes with John the Ripper.
+
+HACKER TIP:
+Always use `man command` to learn more about any Linux command. Example: `man nmap` gives full usage details.
+
+REAL-LIFE HACK EXAMPLE:
+Imagine you’re investigating a suspicious device on your network.
+1. Use `nmap` to find its open ports.
+2. Use `netcat` to interact with those ports.
+3. If it’s a camera, you might find a web login with default credentials.
+
+FUNNY ANALOGY:
+Linux is like having superpowers – but without the manual, you might accidentally blow up your own lair.
+
+END OF VOLUME 2 (Next: Windows Basics for Hackers)
